@@ -1,0 +1,12 @@
+/*Описание стиля шапки сайта*/
+header p{
+    text-align: center;
+    font-size: 25;
+    color: red;
+}
+heder img{
+    height: 400px;
+}
+.container{
+    background-image: url(../img/img2.jpg);
+}
