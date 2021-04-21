@@ -1,12 +1,30 @@
 /*Описание стиля шапки сайта*/
+.container{
+    max-width: 975px;
+    background-color: #e8f1f0e8;
+}
+/**/
 header p{
     text-align: center;
-    font-size: 25;
-    color: red;
+    font-size: 18pt;
+    margin: 0;
+    padding: 5pt 2pt;
 }
-heder img{
-    height: 400px;
+header .user, .status{
+    background-color: #fdfdfdfc;
+    box-shadow: 0 0 1pt rgb(175 165 165 / 88%);
+    padding: 4pt 2pt;
+    margin: 4pt 1pt;
 }
-.container{
-    background-image: url(../img/img2.jpg);
+/*main*/
+main .slider div{
+    background-color: #fdfdfdfc;
+    margin: 2pt 0pt;
+    min-height: 720px;
+    box-shadow: 0 0 3pt rgb(175 165 165 / 88%);
+    border-radius: 5px;
+    padding: 1pt 8pt;
+}
+main #card-1{
+    background-image: url(../img/img2.gif);
 }
