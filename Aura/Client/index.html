@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="conainer">
+      <div class="row">
+          <form action="" method="post">
+              <input type="text" placeholder="Имя" name="name">
+              <input type="password" name="password" placeholder="Пароль">
+              <input type="submit" >
+          </form>
+      </div>
+  </div>
    <header>
         <div class="container">
             <div class="row justify-content-center">
@@ -29,7 +38,7 @@
        <div class="container">
            <div class="row justify-content-center">
                <div class="col-8 slider">
-                   <div id="card-1" ondrag="" draggable="true">
+                   <div id="card-1" ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)">
                        <p>
                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quos corporis placeat saepe obcaecati aut, quo, recusandae iure voluptatum est temporibus earum, quaerat quas. Praesentium incidunt deleniti vel, non similique.
                        </p>
