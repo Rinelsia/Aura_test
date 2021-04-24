@@ -4,7 +4,7 @@
     background-color: #e8f1f0e8;
 }
 /**/
-header p{
+header p, main .slider>div>p{
     text-align: center;
     font-size: 18pt;
     margin: 0;
@@ -17,7 +17,7 @@ header .user, .status{
     margin: 4pt 1pt;
 }
 /*main*/
-main .slider div{
+main .slider>div, .block{
     background-color: #fdfdfdfc;
     margin: 2pt 0pt;
 /*    min-height: 720px;*/
