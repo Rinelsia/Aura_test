@@ -29,7 +29,7 @@
                     <div class="status">Состояние</div>
                 </div>
                 <div class="col-2">
-                    <div class="menu">мню</div>
+                    <div class="menu">меню</div>
                 </div>                
             </div>
         </div>
@@ -37,60 +37,83 @@
    <main>
        <div class="container">
            <div class="row justify-content-center">
-               <div class="col-8 slider">
-                   <div id="thema-1" ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)"> 
-                      <p>Название темы</p> 
-                       <div class="container">
-                           <div class="row">
-                               <div class="col-12 block" id="card-1">
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolore dicta nam possimus, nihil sed, id. Odit eligendi numquam consequatur illum debitis laudantium. Necessitatibus animi ipsum, aperiam facilis libero earum!</p>
+               <div class="col-xl-7 col-lg-12 slider">
+                   <div class="row">
+                       <div id="cont" ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)"> 
+                          <h1>Название статьи</h1>
+                          <h3>Автор</h3>
+                          <div class="content">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quas blanditiis nulla ut a veritatis, voluptates perferendis cum laudantium ab dolores consequuntur exercitationem tempora quis mollitia nobis nam magni. Voluptatibus!</p>
+                          </div>
+                       </div>
+                       <div class="col thema-menu">
+                            <div class="row justify-content-end">
+                                <div class="col-auto">
+                                    <ul>
+                                        <li><input type="button" name="button" value="Комментировать"></li>
+                                        <li><input type="button" name="button" value="Нравится"></li>
+                                        <li><input type="button" value="Не нравится"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                       <div id="comment" class="comment">
+<!--                           <h1>Комментарии</h1>-->
+                           <div id="comment-1">
+                               <div class="osnova">
+                                   <div class="user">
+                                       <div class="row">
+                                           <img src="img/img1.jpg" alt="">
+                                           <h3>Автор</h3>
+                                       </div>
+                                   </div>
+                                   <div class="col-xl-10 offset-xl-2">
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, fuga sit illum consequuntur placeat eum tempore, voluptas alias reiciendis non autem, iusto hic odit labore doloribus eos eius. Ea, repudiandae!</p>
+                                   </div>
                                </div>
-                               <div class="col-12 block" id="card-2">
-                                   <p>Omnis quisquam aut tempora neque impedit eaque esse nesciunt possimus sequi quod repellat, dolore recusandae veritatis voluptates, aspernatur iusto voluptas, modi laboriosam quos. Eius molestiae ex a, eveniet molestias officiis.</p>
-                               </div>
-                               <div class="col-12 block" id="card-3">
-                                   <p>Eligendi nesciunt iure dolorem dolores pariatur nostrum necessitatibus eius fugit. Alias maiores ipsa accusamus odio, sint, vel tenetur vitae, quisquam mollitia, modi dolore nesciunt reprehenderit dolores quam at. Veniam, reprehenderit.</p>
-                               </div>
-                               <div class="col-12 block" id="card-4">
-                                   <p>Repudiandae in quae eos voluptate obcaecati numquam eveniet molestias quas similique, aut sapiente dolorem optio velit, nemo repellendus ex minima voluptatum beatae officia libero natus laudantium at ipsam modi! Error.</p>
+                               <div class="col thema-menu">
+                                    <div class="row justify-content-end">
+                                        <div class="col-auto">
+                                            <ul>
+                                                <li><input type="button" name="button" value="Комментировать"></li>
+                                                <li><input type="button" name="button" value="Нравится"></li>
+                                                <li><input type="button" value="Не нравится"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                               </div> 
+                               <div class="otvety">
+                                   ответы
                                </div>
                            </div>
-                       </div>
+                       </div>                      
+                   </div>
+               </div>
+<!--
+              <div id="thema-1" class="col-8 slider">
+                   <div ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)"> 
+                      <h1>Название статьи</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quas blanditiis nulla ut a veritatis, voluptates perferendis cum laudantium ab dolores consequuntur exercitationem tempora quis mollitia nobis nam magni. Voluptatibus!</p>
                    </div>
                    <div class="thema-menu">
                        <ul>
-                           <li><input type="button"></li>
+                           <li><input type="button" name="button">X</li>
                            <li><input type="button"></li>
                            <li><input type="button"></li>
                        </ul>
                    </div>
                </div>
-               <div class="col-8 slider">
-                    <div id="thema-1" ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)"> 
-                      <p>Название темы</p> 
-                       <div class="container">
-                           <div class="row">
-                               <div class="col-12 block" id="card-1">
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolore dicta nam possimus, nihil sed, id. Odit eligendi numquam consequatur illum debitis laudantium. Necessitatibus animi ipsum, aperiam facilis libero earum!</p>
-                               </div>
-                               <div class="col-12 block" id="card-2">
-                                   <p>Omnis quisquam aut tempora neque impedit eaque esse nesciunt possimus sequi quod repellat, dolore recusandae veritatis voluptates, aspernatur iusto voluptas, modi laboriosam quos. Eius molestiae ex a, eveniet molestias officiis.</p>
-                               </div>
-                               <div class="col-12 block" id="card-3">
-                                   <p>Eligendi nesciunt iure dolorem dolores pariatur nostrum necessitatibus eius fugit. Alias maiores ipsa accusamus odio, sint, vel tenetur vitae, quisquam mollitia, modi dolore nesciunt reprehenderit dolores quam at. Veniam, reprehenderit.</p>
-                               </div>
-                               <div class="col-12 block" id="card-4">
-                                   <p>Repudiandae in quae eos voluptate obcaecati numquam eveniet molestias quas similique, aut sapiente dolorem optio velit, nemo repellendus ex minima voluptatum beatae officia libero natus laudantium at ipsam modi! Error.</p>
-                               </div>
-                           </div>
-                       </div>
+               <div id="thema-1" class="col-8 slider">
+                   <div ondrag="drag(event)" draggable="true" ondragstart="sart(event)" ondragend="end(event)"> 
+                      <h1>Название статьи</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quas blanditiis nulla ut a veritatis, voluptates perferendis cum laudantium ab dolores consequuntur exercitationem tempora quis mollitia nobis nam magni. Voluptatibus!</p>
                    </div>
-               </div>
-               <div class="col-8 slider">
-                   <div id="card-2">
-                       <p>
-                          Esse quisquam rem dolorem officia dolores, at, eligendi repudiandae  ut dicta praesentium architecto quos eaque. Dignissimos tempore, ab unde! Dicta harum optio, aperiam necessitatibus! Deserunt labore nulla quia reprehenderit, iusto!
-                       </p>
+                   <div class="thema-menu">
+                       <ul>
+                           <li><input type="button" name="button">X</li>
+                           <li><input type="button"></li>
+                           <li><input type="button"></li>
+                       </ul>
                    </div>
                </div>
                <div class="col-8 slider">
@@ -100,6 +123,7 @@
                        </p>
                    </div>
                </div>
+-->
            </div>
        </div>
    </main>
